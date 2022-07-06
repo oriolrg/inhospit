@@ -32,7 +32,7 @@
           data-aos-mirror="true"
           data-aos-once="true"
         >
-          <a  :href="colaborador.web" target="_blank"><div class="bg-div"><img class="logoCol" :src="colaborador.img" /></div></a>
+          <a  :href="colaborador.web" target="_blank"><div class="bg-div"><img class="logoCol" :src="colaborador.img" :alt="colaborador.title"/></div></a>
           <!--<div class="title2 pt-2">{{ colaborador.title }}</div>-->
           <span class="title3">{{ colaborador.info.join(", ") }}</span>
         </div>

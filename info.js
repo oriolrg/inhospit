@@ -230,7 +230,7 @@ let info = {
       web: ""
     },
     {
-      title: "Tecnolord",
+      title: "Tecnolord enginyeria informàtica",
       info: [
         ""
       ],
@@ -272,6 +272,24 @@ let info = {
       info: [""],
       img: require("./src/assets/escorxador.gif"),
       web: "https://sites.google.com/site/lescorxador/"
+    },
+    {
+      title: "Vallrosa Jardineria, jardins amb encant",
+      info: [""],
+      img: require("./src/assets/vallrosa.jpg"),
+      web: ""
+    },
+    {
+      title: "Lloguer i muntatge d’equips de so i llums. Sonoritzacions de música en directe, tot tipus d’events #solidso Tècnic de so i guitarrista freelance",
+      info: [""],
+      img: require("./src/assets/solidso.jpg"),
+      web: "https://www.instagram.com/solid.so.marc.monso/"
+    },
+    {
+      title: "Associació de Turisme de la Vall de Lord",
+      info: [""],
+      img: require("./src/assets/logo-vdl.png"),
+      web: "https://lavalldelord.com/ca/"
     },
     
   ],
