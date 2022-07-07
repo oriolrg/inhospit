@@ -291,6 +291,12 @@ let info = {
       img: require("./src/assets/logo-vdl.png"),
       web: "https://lavalldelord.com/ca/"
     },
+    {
+      title: "Hotel Port 1730, és un hotel de muntanya recentment reformat amb estil rústic, situat a peu de pistes de l’Estació d’Esquí Port del Comte",
+      info: [""],
+      img: require("./src/assets/logo-Port-Compte.png"),
+      web: "https://hotelportdelcomte1730.com/cat/"
+    },
     
   ],
   musics:[
