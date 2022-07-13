@@ -41,7 +41,7 @@
           data-aos-once="true">
             <div class="card bg-blau">
               <h2 class="titol">{{cervesa.nom}}</h2>
-              <a  :href="cervesa.web" target="_blank"><div class="bg-div"><img class="logoColCervesa" :src="cervesa.imatge" /></div></a>
+              <a  :href="cervesa.web"  v-tooltip.bottom="cervesa.descripcio" target="_blank"><div class="bg-div"><img class="logoColCervesa" :src="cervesa.imatge" /></div></a>
               <p class="descripcio-text">{{cervesa.descripcio}}</p>
             </div>
           </div>
@@ -58,7 +58,7 @@
           data-aos-once="true">
             <div class="card bg-blau">
               <h2 class="titol">{{producte.nom}}</h2>
-              <a  :href="producte.web" target="_blank">
+              <a  :href="producte.web" v-tooltip.bottom="producte.descripcio" target="_blank">
                 <div class="bg-div"><img class="logoCol" :src="producte.imatge" /></div>
               </a>
               <p class="descripcio-text">{{producte.descripcio}}</p>

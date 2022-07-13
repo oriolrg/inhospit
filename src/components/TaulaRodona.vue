@@ -11,11 +11,11 @@
           :class="{ pgray: !nightMode, 'text-light': nightMode }">
           Taula rodona 
         </span>
-        <div class="bg-div"><img class="imgGran" :src="taulaRodona.img" /></div>
+        <div class="bg-div"><img class="imgGran" :src="taulaRodona.img" alt="Cervesa: des de la producció al consum"/></div>
         <div class="bg-div">{{taulaRodona.place}}</div>
         <div class="title2 col-sm-12">
             <div class="bg-div column">
-              <a class="imgGran" :href="taulaRodona.link">
+              <a class="imgGran" :href="taulaRodona.link" >
                 Reserva plaça
                 <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" class="bi bi-ticket-detailed" viewBox="0 0 16 16">
                     <path d="M4 5.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5Zm0 5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5ZM5 7a1 1 0 0 0 0 2h6a1 1 0 1 0 0-2H5Z"/>

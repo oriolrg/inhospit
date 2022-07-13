@@ -116,6 +116,12 @@ let info = {
           web:"https://www.facebook.com/tirantmilles/posts/1510787042293879/",
           imatge:require("./src/assets/beerstorming.jpeg"),
         },
+        {
+          nom:"La Pirata",
+          descripcio:"CERVESA NO INCLOSA AL TAST. Només disponible a la fira",
+          web:"https://cervesalapirata.com/",
+          imatge:require("./src/assets/pirata.jpeg"),
+        },
       ],
       productes: [
         {
@@ -222,12 +228,12 @@ let info = {
       web: "https://sites.google.com/site/casallestaca/inici"
     },
     {
-      title: "OhmyBeer",
+      title: "OhmyBeer. Empresa dedicada a la identitat creativa i marketing cerveser",
       info: [
 
       ],
       img: require("./src/assets/colaboradors/logo-OHMB-firma.png"),
-      web: ""
+      web: "http://www.ohmybeer.cat/"
     },
     {
       title: "Tecnolord enginyeria informàtica",
@@ -238,19 +244,19 @@ let info = {
       web: "https://tecnolord.cat"
     },
     {
-      title: "Ticae",
+      title: "Ticae es un operador proper, per oferir el servei de mes qualitat y personalitzat.",
       info: [""],
       img: require("./src/assets/colaboradors/logoTicae.png"),
       web: "https://www.ticae.com/"
     },
     {
-      title: "Knauf",
+      title: "Inaugurada en 1991 la fábrica de Knauf en Guixers, fue en su día una de las más modernas de Europa.",
       info: [""],
       img: require("./src/assets/colaboradors/logoKnauf.png"),
-      web: "https://www.knauf.es/"
+      web: "https://www.knauf.es/knauf/grupo-espana-y-portugal/fabrica-lleida.html"
     },
     {
-      title: "Cal Saragossa",
+      title: "Cal Saragossa Situada a 840 metres d'alçada al municipi de Guixers (Solsonès), és en un lloc privilegiat a la zona de l'espai d'interés natural (PEIN) Busa-Bastets-Lord.",
       info: [""],
       img: require("./src/assets/colaboradors/logoCalSaragossa.png"),
       web: "https://www.calsaragossa.cat/"
@@ -296,6 +302,60 @@ let info = {
       info: [""],
       img: require("./src/assets/logo-Port-Compte.png"),
       web: "https://hotelportdelcomte1730.com/cat/"
+    },
+    {
+      title: "Carnisseria Casa Roseta. Elaboració pròpia des del 1967",
+      info: [""],
+      img: require("./src/assets/casa-roseta.png"),
+      web: "https://www.instagram.com/casarosetalacoma/?hl=es"
+    },
+    {
+      title: "Forn i pastisseria del prepirineu de Lleida, a la Vall de Lord.",
+      info: [""],
+      img: require("./src/assets/forn-de-la-vall.png"),
+      web: "https://www.instagram.com/forndelavall/?hl=es"
+    },
+    {
+      title: "Els nostres Padrins Ton i Ció començaren amb la botiga l’any 1930!!",
+      info: [""],
+      img: require("./src/assets/calton.jpg"),
+      web: "https://www.instagram.com/carnisseriaxarcuteriacalton/"
+    },
+    {
+      title: "Una família de torradors amb un ofici, una passió i una tradició per gaudir del cafè en tots els àmbits.",
+      info: [""],
+      img: require("./src/assets/cafesdelbages.jpg"),
+      web: "https://www.cafesdelbages.com/ca/"
+    },
+    {
+      title: "Empresa de serveis esportius i agència de viatges creada amb la intenció de fomentar la pràctica esportiva i l’esperit d’aventura.",
+      info: [""],
+      img: require("./src/assets/esportec-logo.png"),
+      web: "https://www.esportec.cat/ca/"
+    },
+    {
+      title: "DESCOBREIX EL BARRANQUISME ACOMPANYAT/DA DE LA MÁ DE GUIES PROFESSIONALS",
+      info: [""],
+      img: require("./src/assets/relleus_logo.png"),
+      web: "https://relleus.cat/"
+    },
+    {
+      title: "Agrupació de Defensa Forestal de la Vall de Lord",
+      info: [""],
+      img: require("./src/assets/adf.jpg"),
+      web: "https://www.instagram.com/adfvalldelord/?hl=es"
+    },
+    {
+      title: "Horta i Planta Aromàtica eco CCPAE.Apicultura,cata de mels.Venta de proximitat",
+      info: [""],
+      img: require("./src/assets/peuderoques.jpeg"),
+      web: "https://www.instagram.com/peu.de.roques/?hl=es"
+    },
+    {
+      title: "En plena naturalesa, El Monegal es un petit hotel on el plaer està en el gust. Ens interessa la gastronomia, la cultura, sense música no ens entendríem, i sentim passió pel medi que ens sosté.",
+      info: [""],
+      img: require("./src/assets/monegal.jpg"),
+      web: "https://monegal.com/"
     },
     
   ],

@@ -32,7 +32,7 @@
           data-aos-mirror="true"
           data-aos-once="true"
         >
-          <a :href="organitza.web" v-tooltip.bottom="'Instagram'" target="_blank"><div class="bg-div"><img class="logoCol" :src="organitza.img" /></div></a>
+          <a :href="organitza.web" v-tooltip.bottom="organitza.title" target="_blank"><div class="bg-div"><img class="logoCol" :src="organitza.img" /></div></a>
           <div class="title2 pt-2">{{ organitza.title }}</div>
           <span class="title3">{{ organitza.info.join(", ") }}</span>
         </div>
