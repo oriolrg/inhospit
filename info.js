@@ -2,6 +2,7 @@ let info = {
   name: "Inhòspit",
   logo_name: "Inhòspit",
   flat_picture: require("./src/assets/inhospitfestlogoC.png"),
+  gracies: require("./src/assets/gracies.jpeg"),
   config: {
     use_cookies: true,
     navbar: {
@@ -356,6 +357,18 @@ let info = {
       info: [""],
       img: require("./src/assets/monegal.jpg"),
       web: "https://monegal.com/"
+    },
+    {
+      title: "Tècnics de la Fusta. A Fustes Graus treballem des de 1947 al servei dels clients més exigents. La tercera generació de la família Graus conservem la gestió global de l’empresa i l’esperit dels nostres predecessors: La passió per la fusta, el compromís i el gust per la feina ben feta",
+      info: [""],
+      img: require("./src/assets/logotip-Fustes-Graus.png"),
+      web: "http://www.fustesgraus.com/"
+    },
+    {
+      title: " Agricultura ecològica de muntanya",
+      info: [""],
+      img: require("./src/assets/horta.jpeg"),
+      web: "https://www.instagram.com/hortadalcada/"
     },
     
   ],

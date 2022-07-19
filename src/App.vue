@@ -4,7 +4,8 @@
     <div class="parent">
       <Carrega v-if="isLoading"></Carrega>
       <div v-else>
-        <ContaEndarrere :nightMode="nightMode" />
+        <!--<ContaEndarrere :nightMode="nightMode" />-->
+        <ModalPopup :nightMode="nightMode" />
         <Home :nightMode="nightMode" />
         <Actes id="actes" :nightMode="nightMode" />
         <TaulaRodona :nightMode="nightMode" />
@@ -34,7 +35,8 @@ import Tast from "./components/Tast";
 import Musica from "./components/Musica";
 import Sopar from "./components/Sopar";
 import ComArribar from "./components/ComArribar";
-import ContaEndarrere  from "./components/ContaEndarrere";
+//import ContaEndarrere  from "./components/ContaEndarrere";
+import ModalPopup  from "./components/ModalPopup";
 import AltresActivitats from "./components/AltresActivitats"
 
 import info from "../info";
@@ -53,9 +55,9 @@ export default {
     ComArribar,
     Tast,
     Musica,
-    ContaEndarrere,
     Sopar,
     AltresActivitats,
+    ModalPopup,
   },
   data() {
     return {
